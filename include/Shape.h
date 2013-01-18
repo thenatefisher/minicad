@@ -2,10 +2,9 @@
  * File:   Shape.h
  * Author: Nate Fisher
  *
- * This is a an abstract base class for the sshape object. It has a purely
- * virtual method and therefor cannot be instantiated on it's own.
+ * This is a an abstract base class for the shape object. It has at least
+ * one purely virtual method and therefor cannot be instantiated on it's own.
  *
- * Created on September 19, 2011, 6:55 PM
  */
 
 #ifndef SHAPE_H

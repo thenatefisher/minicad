@@ -2,7 +2,6 @@
  * File:   CanvasRenderer.cpp
  * Author: Nate Fisher
  * 
- * Created on September 19, 2011, 11:28 PM
  */
 
 #include <CanvasRenderer.h>
@@ -13,18 +12,19 @@ CanvasRenderer::CanvasRenderer() {}
 
 CanvasRenderer::CanvasRenderer(Canvas* c) {
 
+    // check for null pointer; set canvas
     if (c != NULL) canvas = c;
 
 }
 
-CanvasRenderer::CanvasRenderer(const CanvasRenderer& orig) {}
+CanvasRenderer::CanvasRenderer(const CanvasRenderer& orig) { /* this is for cloning */ }
 
 CanvasRenderer::~CanvasRenderer() {
 
     // We could delete the canvas, but that's probably not expected by
     // the Caller
     
-    //delete[] canvas;
+    // delete[] canvas;
     
 }
 
@@ -65,14 +65,14 @@ bool CanvasRenderer::render_summary() {
 
 bool CanvasRenderer::render_ascii() {
 
-    /* Not implemented. */
+    /* Homework! */
     return false;
 
 }
 
 bool CanvasRenderer::render_gui() {
 
-    /* Not implemented. */
+    /* Homework! */
     return false;
 
 }

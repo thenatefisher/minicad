@@ -2,7 +2,6 @@
  * File:   miniCadStructures.h
  * Author: Nate Fisher
  *
- * Created on September 19, 2011, 7:06 PM
  */
 
 #ifndef MINICADSTRUCTURES_H

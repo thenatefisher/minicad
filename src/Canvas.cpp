@@ -2,14 +2,13 @@
  * File:   Canvas.cpp
  * Author: Nate Fisher
  * 
- * Created on September 19, 2011, 10:12 PM
  */
 
 #include <Canvas.h>
 
 Canvas::Canvas() {}
 
-Canvas::Canvas(const Canvas& orig) {}
+Canvas::Canvas(const Canvas& orig) { /* this is for cloning */ }
 
 Canvas::~Canvas() { /* vector class handles removing shapes */}
 
@@ -44,5 +43,9 @@ bool Canvas::removeShape(Shape* s) {
     // Check for null pointer
     if (s == NULL)
         return false;
+
+    // TODO: implement a way to remove the given shape
+    // you may need to loop through items to find your 
+    // target and then blast it away!
 
 }

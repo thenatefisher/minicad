@@ -2,7 +2,6 @@
  * File:   Shape.cpp
  * Author: Nate Fisher
  * 
- * Created on September 19, 2011, 7:15 PM
  */
 
 #include <Shape.h>
