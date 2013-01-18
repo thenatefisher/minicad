@@ -2,7 +2,6 @@
  * File:   Canvas.h
  * Author: Nate Fisher
  *
- * Created on September 19, 2011, 10:12 PM
  */
 
 #ifndef CANVAS_H

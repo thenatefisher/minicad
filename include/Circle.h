@@ -2,7 +2,6 @@
  * File:   Circle.h
  * Author: Nate Fisher
  *
- * Created on September 19, 2011, 7:42 PM
  */
 
 #ifndef CIRCLE_H

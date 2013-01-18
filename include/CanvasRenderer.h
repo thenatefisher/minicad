@@ -2,7 +2,6 @@
  * File:   CanvasRenderer.h
  * Author: Nate Fisher
  *
- * Created on September 19, 2011, 11:28 PM
  */
 
 #ifndef CANVASRENDERER_H
