@@ -14,7 +14,7 @@ Files Included:
 
 To Build:
 
-  $ cd miniCad
+    $ cd miniCad
     $ make -f nbproject/Makefile-Release.mk dist/Release/GNU-Linux-x86/minicad
 
 To Run:
