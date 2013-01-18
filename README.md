@@ -20,3 +20,8 @@ To Build:
 To Run:
 
     $ ./dist/Release/GNU-Linux-x86/minicad
+
+
+License
+=======
+miniCad is released under the MIT License.
