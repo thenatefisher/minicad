@@ -1,0 +1,14 @@
+language: cpp
+
+compiler:
+  - gcc
+  - clang
+
+
+branches:
+  only:
+    - master
+
+os:
+  - linux
+  - osx
